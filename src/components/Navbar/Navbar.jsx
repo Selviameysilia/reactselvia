@@ -11,7 +11,7 @@ export default function Navbar({ onSearchChange }) {
   };
 
   return (
-    <nav className="grid grid-cols-3 justify-between px-24 py-4 bg-[#8091FF] items-center">
+    <nav className="grid grid-cols-3 justify-between px-24 py-4 bg-pink-400 items-center">
       <ul>
         <li className="flex items-center justify-center">
           <Link to="/" className="text-[#F2F4FF] hover:text-[#565f93] active:text-[#1d2342]">
@@ -23,10 +23,10 @@ export default function Navbar({ onSearchChange }) {
         <li className="w-full">
           <input
             type="text"
-            className="text-black active:text-black focus:text-black px-4 py-2 w-full"
+            className="text-black active:text-black focus:text-black px-4 py-2 w-full rounded-full"
             name="search"
             id={inputId}
-            placeholder="Search product..."
+            placeholder="Cari Produk OMG Kamu..."
             onChange={handleSearchInput}
           />
         </li>

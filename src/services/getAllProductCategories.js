@@ -1,13 +1,13 @@
 export default function getAllProductCategories(){
   return  [   {
-      id: 'FMEN',
-      slug: 'men-shoes',
-      name: `Men's Shoes`
+      id: 'NATURAL',
+      slug:'liptint-natural',
+      name: `Liptint Natural`
     },
     {
-      id: 'FWMEN',
-      slug: 'women-shoes',
-      name: `Women's Shoes`
+      id: 'OMBRE',
+      slug: 'liptint-ombre',
+      name: `Liptint Ombre`
     },
   ]
 }

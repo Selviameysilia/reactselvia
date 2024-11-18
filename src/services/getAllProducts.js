@@ -1,37 +1,59 @@
 export const getAllProducts = () => {
   return [
     {
-      id: 'NAF-1-07-FMEN-001',
-      slug: 'nike-air-force-1-07-men',
-      name: "Nike Air Force 1 '07",
-      category: `Men's Shoes`,
-      categorySlug: 'men-shoes',
-      price: 1_549_000,
-      stock: 100,
-      imageUrl: '/assets/images/AIR-FORCE-1-07.png',
-      description: `The radiance lives on in the Nike Air Force 1 '07, the b-ball icon that puts a fresh spin on what you know best: crisp leather, bold colours and the perfect amount of flash to make you shine.`
+      id: 'LCR-NATURAL-001',
+      slug: 'liptint-crepe-liptint-natural',
+      name: "Liptint Crepe",
+      category: `Liptint Natural`,
+      categorySlug: 'liptint-natural',
+      price: 26_000,
+      stock: 50,
+      imageUrl: '/assets/images/crepe.jpeg',
+      description: `Warna medium neutral pink yang gak dangdut`
     },
     {
-      id: 'NAF-1-07-FMEN-LV8-002',
-      slug: 'nike-air-force-1-07-lv8-men',
-      name: "Nike Air Force 1 '07 LV8",
-      category: `Men's Shoes`,
-      categorySlug: 'men-shoes',
-      price: 1_909_000,
-      stock: 5,
-      imageUrl: `/assets/images/AIR+FORCE+1+'07+LV8.png`,
-      description: `Comfortable, durable and timeless—it's number 1 for a reason. The classic '80s construction pairs with bold details for style that tracks whether you're on court or on the go.`
-    },
-    {
-      id: 'NAF-1-07-FWOMEN-003',
-      slug: 'nike-air-force-1-07-women',
-      name: "Nike Air Force 1 '07",
-      category: `Women's Shoes`,
-      categorySlug: 'women-shoes',
-      price: 1_909_000,
+      id: 'LSI-OMBRE-002',
+      slug: 'liptint-sienna-liptint-ombre',
+      name: "Liptint Sienna",
+      category: `Liptint Ombre`,
+      categorySlug: 'liptint-ombre',
+      price: 26_000,
       stock: 0,
-      imageUrl: `/assets/images/WMNS+AIR+FORCE+1+'07.jpeg`,
-      description: `Comfortable, durable and timeless—it's number 1 for a reason. The classic '80s construction pairs a warm suede upper with neutral accents for style that tracks whether you're on court or on the go.`
+      imageUrl: `/assets/images/sienna.jpeg`,
+      description: `Warna medium warm red yang gak bikin gigi kelihatan kuning`
+    },
+    {
+      id: 'LS-NATURAL-003',
+      slug: 'liptint-spring-liptint-natural',
+      name: "Liptint Spring",
+      category: `Liptint Natural`,
+      categorySlug: 'liptint-natural',
+      price: 26_000,
+      stock: 30,
+      imageUrl: `/assets/images/spring.jpeg`,
+      description: `Warna medium warm peach yang gak bikin muka kelihatan pucat`
+    },
+    {
+      id: 'LB-OMBRE-004',
+      slug: 'liptint-burgundy-liptint-ombre',
+      name: "Liptint Burgundy",
+      category: `Liptint Ombre`,
+      categorySlug: 'liptint-ombre',
+      price: 26_000,
+      stock: 0,
+      imageUrl: `/assets/images/burgundy.jpeg`,
+      description: `Warna dark purplish-red yang netral, andalan untuk inner ombre`
+    },
+    {
+      id: 'LC-NATURAL-005',
+      slug: 'liptint-caramel-liptint-natural',
+      name: "Liptint Caramel",
+      category: `Liptint Natural`,
+      categorySlug: 'liptint-natural',
+      price: 26_000,
+      stock: 2,
+      imageUrl: `/assets/images/caramel.jpeg`,
+      description: `Warna nude brown yang cover banget bibir hitam`
     },
 
   ]
